@@ -1,0 +1,24 @@
+Summary of this project 
+Which features influence house price the most?
+Based on the Random Forest feature importance and the correlation heatmap, 
+the most influential features are area (square footage), number of bedrooms, 
+and location (e.g., whether it's near the main road or in a preferred zone). 
+The `area` column consistently shows the strongest positive correlation with price.
+
+How accurate was your model (in plain terms)?
+The Linear Regression model achieved an R² score of approximately [insert your value], 
+meaning it explains about [insert percentage]% of the variance in house prices. 
+The Random Forest model performed slightly better with an R² of [insert your value]. 
+In plain terms, the average prediction error (MAE) was around $[insert MAE], which means 
+the model's predictions are off by this amount on average.
+
+What surprised you in the data?
+I was surprised that the age of the house did not have a stronger negative correlation with price. 
+In many markets, older houses are cheaper, but here the effect was relatively weak. 
+The presence of amenities like a swimming pool or a furnished status had a more noticeable impact than expected.
+
+One recommendation for a real estate business based on your findings:
+Real estate agents should focus heavily on total area and location
+ when pricing a house, as these are the strongest predictors. 
+ They could also increase a property's assessed value by emphasizing the presence of a swimming pool or a well-maintained parking space,
+  as these features significantly boost predicted prices in our model.
